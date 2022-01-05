@@ -2,7 +2,7 @@
 set -x -e
 
 # General info
-DANTE_LTR_DIR=${PREFIX}/share/LTR_Finder
+DANTE_LTR_DIR=${PREFIX}/share/dante_ltr
 R_PRG=extract_putative_ltr.R
 
 # Create folders
