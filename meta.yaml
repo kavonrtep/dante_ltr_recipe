@@ -1,4 +1,4 @@
-{% set version = "0.1.2" %}
+{% set version = "0.1.6.0" %}
 
 package:
   name: dante_ltr
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/kavonrtep/dante_ltr/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 994ebd99776a8a313f5adf67e0cf8218a8fb6709a25bbb88e5e316033157531a
+  sha256: 75b9a704cbeb1481eeeee635f55f246e90561f0dcaba563706f79494f29dba22
 requirements:
   run:
     - r-optparse
@@ -22,7 +22,7 @@ about:
   dev_url: https://github.com/kavonrtep/dante_ltr
   license: GNU GPL v3
   license_file: LICENSE
-  summary: DANTE_LTR is a program for finding full-length LTR retrotranspsons using Domain based ANnotation of Transposable Wlements
+  summary: DANTE_LTR is a program for finding full-length LTR retrotranspsons using Domain based ANnotation of Transposable elements
 
 extra:
   copy_test_source_files: true
